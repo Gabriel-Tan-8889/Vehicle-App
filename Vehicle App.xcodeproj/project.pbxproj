@@ -11,6 +11,12 @@
 		DFEA0C8D2CD24C920095DF72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0C8C2CD24C920095DF72 /* ContentView.swift */; };
 		DFEA0C8F2CD24C940095DF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEA0C8E2CD24C940095DF72 /* Assets.xcassets */; };
 		DFEA0C922CD24C940095DF72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEA0C912CD24C940095DF72 /* Preview Assets.xcassets */; };
+		DFEA0C992CD24D690095DF72 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0C982CD24D690095DF72 /* CarDetailView.swift */; };
+		DFEA0C9B2CD24D940095DF72 /* CarSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0C9A2CD24D940095DF72 /* CarSelectionView.swift */; };
+		DFEA0C9F2CD24DF00095DF72 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0C9E2CD24DF00095DF72 /* DataModel.swift */; };
+		DFEA0CA12CD24ECF0095DF72 /* CompanySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA02CD24ECF0095DF72 /* CompanySelectionView.swift */; };
+		DFEA0CA32CD24F150095DF72 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA22CD24F150095DF72 /* InfoView.swift */; };
+		DFEA0CA52CD24F380095DF72 /* SubmodelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA42CD24F380095DF72 /* SubmodelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		DFEA0C8C2CD24C920095DF72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFEA0C8E2CD24C940095DF72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFEA0C912CD24C940095DF72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFEA0C982CD24D690095DF72 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		DFEA0C9A2CD24D940095DF72 /* CarSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectionView.swift; sourceTree = "<group>"; };
+		DFEA0C9E2CD24DF00095DF72 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		DFEA0CA02CD24ECF0095DF72 /* CompanySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySelectionView.swift; sourceTree = "<group>"; };
+		DFEA0CA22CD24F150095DF72 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		DFEA0CA42CD24F380095DF72 /* SubmodelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmodelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				DFEA0C8A2CD24C920095DF72 /* Vehicle_AppApp.swift */,
 				DFEA0C8C2CD24C920095DF72 /* ContentView.swift */,
+				DFEA0CA22CD24F150095DF72 /* InfoView.swift */,
+				DFEA0CA42CD24F380095DF72 /* SubmodelView.swift */,
+				DFEA0C9E2CD24DF00095DF72 /* DataModel.swift */,
+				DFEA0C982CD24D690095DF72 /* CarDetailView.swift */,
+				DFEA0C9A2CD24D940095DF72 /* CarSelectionView.swift */,
+				DFEA0CA02CD24ECF0095DF72 /* CompanySelectionView.swift */,
 				DFEA0C8E2CD24C940095DF72 /* Assets.xcassets */,
 				DFEA0C902CD24C940095DF72 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEA0CA32CD24F150095DF72 /* InfoView.swift in Sources */,
+				DFEA0CA52CD24F380095DF72 /* SubmodelView.swift in Sources */,
+				DFEA0C9B2CD24D940095DF72 /* CarSelectionView.swift in Sources */,
 				DFEA0C8D2CD24C920095DF72 /* ContentView.swift in Sources */,
+				DFEA0C992CD24D690095DF72 /* CarDetailView.swift in Sources */,
 				DFEA0C8B2CD24C920095DF72 /* Vehicle_AppApp.swift in Sources */,
+				DFEA0C9F2CD24DF00095DF72 /* DataModel.swift in Sources */,
+				DFEA0CA12CD24ECF0095DF72 /* CompanySelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

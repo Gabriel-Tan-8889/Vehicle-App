@@ -9,16 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Text("Car Selector App")
+                    .font(.largeTitle)
+                    .padding()
+                
+                NavigationLink(destination: CompanySelectionView()) {
+                    Text("View Cars")
+                        .font(.title2)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
+                
+                Text("Disclaimer: It is just an average")
+            }
+            .navigationTitle("Home")
+            .navigationBarBackButtonHidden(true) // Hides the back button
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
