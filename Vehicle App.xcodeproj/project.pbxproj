@@ -17,6 +17,7 @@
 		DFEA0CA12CD24ECF0095DF72 /* CompanySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA02CD24ECF0095DF72 /* CompanySelectionView.swift */; };
 		DFEA0CA32CD24F150095DF72 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA22CD24F150095DF72 /* InfoView.swift */; };
 		DFEA0CA52CD24F380095DF72 /* SubmodelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA42CD24F380095DF72 /* SubmodelView.swift */; };
+		DFEA0CA82CD2E3960095DF72 /* PlaneDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA72CD2E3960095DF72 /* PlaneDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DFEA0CA02CD24ECF0095DF72 /* CompanySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySelectionView.swift; sourceTree = "<group>"; };
 		DFEA0CA22CD24F150095DF72 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		DFEA0CA42CD24F380095DF72 /* SubmodelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmodelView.swift; sourceTree = "<group>"; };
+		DFEA0CA72CD2E3960095DF72 /* PlaneDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +91,17 @@
 				DFEA0C982CD24D690095DF72 /* CarDetailView.swift */,
 				DFEA0C9A2CD24D940095DF72 /* CarSelectionView.swift */,
 				DFEA0CA02CD24ECF0095DF72 /* CompanySelectionView.swift */,
+				DFEA0CA92CD2E39C0095DF72 /* Plane View */,
 			);
 			path = "Car View";
+			sourceTree = "<group>";
+		};
+		DFEA0CA92CD2E39C0095DF72 /* Plane View */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA0CA72CD2E3960095DF72 /* PlaneDataModel.swift */,
+			);
+			path = "Plane View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				DFEA0C8D2CD24C920095DF72 /* ContentView.swift in Sources */,
 				DFEA0C992CD24D690095DF72 /* CarDetailView.swift in Sources */,
 				DFEA0C8B2CD24C920095DF72 /* Vehicle_AppApp.swift in Sources */,
+				DFEA0CA82CD2E3960095DF72 /* PlaneDataModel.swift in Sources */,
 				DFEA0C9F2CD24DF00095DF72 /* CarDataModel.swift in Sources */,
 				DFEA0CA12CD24ECF0095DF72 /* CompanySelectionView.swift in Sources */,
 			);
