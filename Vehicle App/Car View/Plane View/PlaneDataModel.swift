@@ -23,22 +23,22 @@ struct AirplaneModel: Identifiable, Hashable {
 
 struct airsubmodel: Identifiable, Hashable {
     var id = UUID()
-    var name: String
-    var mpg: Double
-    var fuelType: String
-    var drivingRange: Int
-    var horsepower: Int
-    var torque: Int
-    var zeroToSixty: Double
-    var cargoSpace: Double
-    var seatingCapacity: Int
-    var towingCapacity: Int
+    var model: String
+    var type: String
+    var Manufacrurer: String
     var length: Double
     var width: Double
-    var height: Double
-    var safetyRatings: String
-    var priceRange: String
-    var driveType: String
-    var emissionRatings: String
-    var bestplacetodrive: String
+    var wingspan: Double
+    var passanger: Bool
+    var range: Double
+    var MaxSpeed: Double
+    var Cruisingspeed: Double
+    var Cruisingaltitude: Double
+    var fuelCapacity: Int
+    var enginetype: String
+    var numofengine: Int
+    var takeofflandingdistance: Double
+    var fuelefficenecy: Double
+    var emissions: Double
+    var Companiesuse: String
 }

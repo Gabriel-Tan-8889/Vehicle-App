@@ -11,9 +11,8 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Car Selector App")
+                Text("Vehicle App")
                     .font(.largeTitle)
-                    .padding()
                 
                 NavigationLink(destination: CompanySelectionView()) {
                     Text("View Cars")
@@ -25,6 +24,35 @@ struct ContentView: View {
                 }
                 .padding()
                 
+                NavigationLink(destination: AirCompanyselectionView()) {
+                    Text("View Planes")
+                        .font(.title2)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
+                
+                NavigationLink(destination: BikeCompanyselectionView()) {
+                    Text("View Bikes")
+                        .font(.title2)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
+                
+                NavigationLink(destination: BikeCompanyselectionView()) {
+                    Text("View Bikes")
+                        .font(.title2)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
                 Text("Disclaimer: It is just an average")
             }
             .navigationTitle("Home")

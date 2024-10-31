@@ -18,6 +18,9 @@
 		DFEA0CA32CD24F150095DF72 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA22CD24F150095DF72 /* InfoView.swift */; };
 		DFEA0CA52CD24F380095DF72 /* SubmodelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA42CD24F380095DF72 /* SubmodelView.swift */; };
 		DFEA0CA82CD2E3960095DF72 /* PlaneDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CA72CD2E3960095DF72 /* PlaneDataModel.swift */; };
+		DFEA0CAB2CD31AAB0095DF72 /* AirCompanyselectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CAA2CD31AAB0095DF72 /* AirCompanyselectionView.swift */; };
+		DFEA0CAD2CD31B1E0095DF72 /* BikeCompanyselectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CAC2CD31B1E0095DF72 /* BikeCompanyselectionView.swift */; };
+		DFEA0CB02CD31B6D0095DF72 /* BoatCompanySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA0CAF2CD31B6D0095DF72 /* BoatCompanySelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		DFEA0CA22CD24F150095DF72 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		DFEA0CA42CD24F380095DF72 /* SubmodelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmodelView.swift; sourceTree = "<group>"; };
 		DFEA0CA72CD2E3960095DF72 /* PlaneDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDataModel.swift; sourceTree = "<group>"; };
+		DFEA0CAA2CD31AAB0095DF72 /* AirCompanyselectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirCompanyselectionView.swift; sourceTree = "<group>"; };
+		DFEA0CAC2CD31B1E0095DF72 /* BikeCompanyselectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeCompanyselectionView.swift; sourceTree = "<group>"; };
+		DFEA0CAF2CD31B6D0095DF72 /* BoatCompanySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatCompanySelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 			children = (
 				DFEA0C8A2CD24C920095DF72 /* Vehicle_AppApp.swift */,
 				DFEA0C8C2CD24C920095DF72 /* ContentView.swift */,
+				DFEA0CB12CD31B730095DF72 /* Boat */,
 				DFEA0CA62CD262D00095DF72 /* Car View */,
 				DFEA0C8E2CD24C940095DF72 /* Assets.xcassets */,
 				DFEA0C902CD24C940095DF72 /* Preview Content */,
@@ -100,8 +107,26 @@
 			isa = PBXGroup;
 			children = (
 				DFEA0CA72CD2E3960095DF72 /* PlaneDataModel.swift */,
+				DFEA0CAA2CD31AAB0095DF72 /* AirCompanyselectionView.swift */,
+				DFEA0CAE2CD31B260095DF72 /* bike */,
 			);
 			path = "Plane View";
+			sourceTree = "<group>";
+		};
+		DFEA0CAE2CD31B260095DF72 /* bike */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA0CAC2CD31B1E0095DF72 /* BikeCompanyselectionView.swift */,
+			);
+			path = bike;
+			sourceTree = "<group>";
+		};
+		DFEA0CB12CD31B730095DF72 /* Boat */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA0CAF2CD31B6D0095DF72 /* BoatCompanySelectionView.swift */,
+			);
+			path = Boat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +205,11 @@
 				DFEA0C8D2CD24C920095DF72 /* ContentView.swift in Sources */,
 				DFEA0C992CD24D690095DF72 /* CarDetailView.swift in Sources */,
 				DFEA0C8B2CD24C920095DF72 /* Vehicle_AppApp.swift in Sources */,
+				DFEA0CAD2CD31B1E0095DF72 /* BikeCompanyselectionView.swift in Sources */,
+				DFEA0CB02CD31B6D0095DF72 /* BoatCompanySelectionView.swift in Sources */,
 				DFEA0CA82CD2E3960095DF72 /* PlaneDataModel.swift in Sources */,
 				DFEA0C9F2CD24DF00095DF72 /* CarDataModel.swift in Sources */,
+				DFEA0CAB2CD31AAB0095DF72 /* AirCompanyselectionView.swift in Sources */,
 				DFEA0CA12CD24ECF0095DF72 /* CompanySelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
